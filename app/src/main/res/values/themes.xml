@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="titulo" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor"> #ffffff </item>
+        <item name="fontFamily">@font/bangers </item>
+    </style>
 </resources>

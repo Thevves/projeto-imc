@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">imc app</string>
+    <string name="app_name">health Calc</string>
+
+    <string name="app_titulo">health\nCalc</string>
+
+    <string name="login_activity_login">Login</string>
+    <string name="login_activity_subtitulo">Faça login para continuar</string>
+    <string name="login_activity_email">E-mail</string>
+    <string name="login_activity_senha">Senha</string>
+    <string name="login_activity_entrar">Entrar</string>
 </resources>
