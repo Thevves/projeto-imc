@@ -11,4 +11,7 @@
     <color name="primary">#039be5</color>
     <color name="primary_dark">#005cb2</color>
     <color name="primary_light">#63ccff</color>
+
+    <color name="degrade">#44B8F1</color>
+
 </resources>
