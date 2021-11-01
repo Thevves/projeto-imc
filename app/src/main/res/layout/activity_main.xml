@@ -160,7 +160,8 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:textAllCaps="false"
                         android:padding="0dp"
-                        android:layout_marginStart="4dp"/>
+                        android:layout_marginStart="4dp"
+                        android:id="@+id/button_criar_conta"/>
 
                 </LinearLayout>
             </LinearLayout>
