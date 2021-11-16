@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
 
         val buttonCriarConta = findViewById<Button>(R.id.button_criar_conta)
 
-        buttonCriarConta.setOnClickListener{
-            val abrirCadastro = Intent(this, cadastro_imc:: class.java)
-            startActivity(abrirCadastro)
+        buttonCriarConta.setOnClickListener {
+            val abrircadastroImc = Intent(this, Cadastro_usuario::class.java)
+            startActivity(abrircadastroImc)
         }
     }
 }
