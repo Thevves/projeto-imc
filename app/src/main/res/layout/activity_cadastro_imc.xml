@@ -16,15 +16,15 @@
         <androidx.cardview.widget.CardView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            app:cardCornerRadius="50dp"
-            android:layout_gravity="center">
+            app:cardCornerRadius="50dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ines"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:src="@drawable/ines" />
 
         </androidx.cardview.widget.CardView>
 
@@ -97,6 +97,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/edit_nova_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp"
@@ -125,6 +126,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_novo_nome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp" />
@@ -141,6 +143,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_nova_profissao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp" />
@@ -157,9 +160,11 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_nova_altura"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="8dp" />
+                    android:drawablePadding="8dp"
+                    android:inputType="numberDecimal"/>
 
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -169,13 +174,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="Data de Nascimento"
-                android:inputType="date"
-                app:boxBackgroundColor="#0D070707">
+                android:inputType="numberDecimal"
+                app:boxBackgroundColor="#0D070707"
+                >
 
                 <EditText
+                    android:id="@+id/edit_nova_data_de_nascimento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="8dp" />
+                    android:drawablePadding="8dp"
+                    android:focusable="false"/>
 
 
             </com.google.android.material.textfield.TextInputLayout>
